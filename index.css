@@ -1,0 +1,47 @@
+.header{
+display: flex;
+justify-content: space-between;
+border: 2px solid black;
+}
+ .logo{
+    width: 120px;
+    
+ }
+
+ .nav-item >ul{
+    display : flex;
+    margin: 5px;
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+ }
+ .nav-item>ul>li{
+    padding: 25px;
+    margin: 0 50px;
+ }
+ .cards{
+    width:200px;
+   
+ }
+ .rest{
+    width:200px;
+    
+    padding:5px;
+ }
+ .rest-container{
+  display: flex;
+ }
+ 
+ .rest:hover{
+    border: 1px solid black;
+    display: block;;
+    cursor: pointer;
+ }
+ .textstyle{
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
